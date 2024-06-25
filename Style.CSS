@@ -1,0 +1,56 @@
+/* google font- poppins medium-500 */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;    
+    font-weight: 500;    
+    font-style: normal;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center; /*horizontal aliign */
+    align-items: center;     /*vertical allign */
+    background-color: darkgray;
+}
+
+.calculator {
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 15px; /* corner are bend */
+    background-color: brown;
+}
+
+input {
+    width: 100%;
+    padding: 20px;
+    border: none;
+    background-color: pink;
+    border-radius: 15px;
+    font-size: 40px;
+    text-align: right;
+    }
+
+    button {
+        border: none;
+        width: 60px;
+        height: 60px;
+        margin: 10px;
+        border-radius: 15px;
+        background: transparent;
+        color: aqua;
+        font-size: 20px;
+        
+    }
+
+    .equal {
+        color: black;
+    }
+
